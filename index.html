@@ -28,9 +28,14 @@
       var timeText = document.querySelector("#timeElement");
       timeText.innerHTML = currentTime
 
-      setInterval(function (){
-        document.querySelector("timeElement").innerHTML = new
-        Date().toLocaleString();}, 1000);
+
+    function updateTime() {
+        var currentTime = new Date().toLocaleString();
+        var timeText = document.querySelector("#timeElement");
+        timeText.innerHTML = currentTime;
+    }
+    setInterval(updateTime, 1000);
+    
     </script>
   </body>
 

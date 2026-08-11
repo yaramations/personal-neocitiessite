@@ -6,10 +6,12 @@
 
   </head>
   <body>
-    <script> var currentTime = new Date().toLocaleString(); </script>
+
+
     <div class="navbar" style="display: flex; justify-content: space-between; backdrop-filter: blur(10px); background-color: rgba(210, 24, 135, 0.25); color: #ffffff;">
-        <p style="margin-left: 16px;">Alcon OS</p>
-        <p style="margin-right: 16px"> </p>
+       <p style="margin-left: 16px;">Alcon OS</p>
+        
+       <p id="timeElement" style="margin-right: 16px"> Time </p>
     </div>
 
 
@@ -21,6 +23,15 @@
 
   <div id="w1"> WINDOW1 </div>
 
+    <script>
+      var currentTime = new Date().toLocaleString();
+      var timeText = document.querySelector("#timeElement");
+      timeText.innerHTML = currentTime
+
+      setInterval(function (){
+        document.querySelector("timeElement").innerHTML = new
+        Date().toLocaleString();}, 1000);
+    </script>
   </body>
 
 </html>

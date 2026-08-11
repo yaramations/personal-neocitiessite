@@ -1,19 +1,9 @@
-img {
-object-fit: cover;
-border-radius: 16px;
-}
-
-#welcome{    
-    border:solid;
-    width: 128px;
-    border-radius: 16px;
-    padding: 16px;
-    position: absolute;
-    transform: translate(-50%, -50%);
-}
-
 .navbar{
 font-family:DS;
+border-radius: 5px;
+}
+h1{
+    font-family:Kpop;
 }
 
 /*Font Library*/

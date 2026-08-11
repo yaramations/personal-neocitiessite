@@ -1,7 +1,18 @@
+html{
+    background-image:url(images/canyon.avif);
+    background-color:rgb(236, 197, 210);
+}
 .navbar{
 font-family:DS;
 border-radius: 5px;
+display: flex;
+justify-content: space-between;
+backdrop-filter: blur(10px);
+background-color: rgba(210, 24, 135, 0.25);
+color: #ffffff;
+backdrop-filter: blur(10px);
 }
+
 h1{
     font-family:Kpop;
 }

@@ -1,0 +1,27 @@
+img {
+object-fit: cover;
+border-radius: 16px;
+}
+
+#w1{    
+    border:solid;
+    width: 128px;
+    border-radius: 16px;
+    padding: 16px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.navbar{
+font-family:DS;
+}
+
+/*Font Library*/
+@font-face {
+    font-family:DS;
+    src: url(fonts/ds_digital/DS-DIGI.TTF);
+}
+@font-face {
+    font-family:Kpop;
+    src: url(fonts/hunters_k_pop/Hunters\ K-Pop.otf);
+}

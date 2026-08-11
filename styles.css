@@ -1,7 +1,12 @@
 html{
     background-image:url(images/canyon.avif);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: auto;
+    /*Image taken from https://unsplash.com/photos/starry-night-sky-over-desert-rock-formations-BMhglVdk3lA*/
     background-color:rgb(236, 197, 210);
 }
+
 .navbar{
 font-family:DS;
 border-radius: 5px;

@@ -13,13 +13,24 @@ border-radius: 5px;
 display: flex;
 justify-content: space-between;
 backdrop-filter: blur(10px);
-background-color: rgba(210, 24, 135, 0.25);
+background-color: #cf1d82;
 color: #ffffff;
 backdrop-filter: blur(10px);
 }
 
 h1{
     font-family:Kpop;
+}
+
+.X{
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 5px;
+    font-family: Matcha;
+    color:#ffffff;
+    background-color:#cf1d82;
+    border-radius:5px;
 }
 
 /*Font Library*/
@@ -30,4 +41,8 @@ h1{
 @font-face {
     font-family:Kpop;
     src: url(fonts/hunters_k_pop/Hunters\ K-Pop.otf);
+}
+@font-face{
+    font-family:Matcha;
+    src: url(fonts/matcha_mint/Matcha\ Mint.otf);
 }

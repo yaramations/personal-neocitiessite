@@ -7,7 +7,6 @@
   </head>
   <body>
 
-
     <div class="navbar" style="display: flex; justify-content: space-between; backdrop-filter: blur(10px); background-color: rgba(210, 24, 135, 0.25); color: #ffffff;">
        <p style="margin-left: 16px;">Alcon OS</p>
         
@@ -15,28 +14,34 @@
     </div>
 
 
+
+
+
   <h1>YARA'S WEB OS!</h1>
   <h2>Hello guys!</h2>
   <p>I exist!</p>
   <a href="https://example.com/">label</a>
   
-
-  <div id="w1"> WINDOW1 </div>
-
-    <script>
-      var currentTime = new Date().toLocaleString();
-      var timeText = document.querySelector("#timeElement");
-      timeText.innerHTML = currentTime
-
-
-    function updateTime() {
-        var currentTime = new Date().toLocaleString();
-        var timeText = document.querySelector("#timeElement");
-        timeText.innerHTML = currentTime;
-    }
-    setInterval(updateTime, 1000);
+  <div id="welcome"
+    style="border: solid; display: flex; flex-direction: column; border-radius: 16px; position: absolute; top: calc(50% - 90px); left: calc(50% - 180px); backdrop-filter: blur(4px); background-color: rgba(0, 0, 0, 0.125); ">
     
-    </script>
+    
+    <div id="welcomeheader"
+      style="width: 100%; display: flex; align-items: center; cursor: move; justify-content: center; margin-top: 8px;">
+      <p style="margin: 0px; color: #fff; font-weight: 500">Welcome</p>
+    </div>
+
+    <div style="background-color: #ffb4d9; margin: 6px; border-radius: 12px; width: 360px; padding: 16px;">
+      <img src=""
+        style="width: 64px; height: 64px; border-radius: 32px; object-fit: cover;" />
+      <h1 style="margin: 4px;"> THIS IS A TEST</h1>
+      <p style="margin: 0px;"> This is a test</p>
+    </div>
+  </div>
+
+  <script src="script.js"> </script>
+
+  
   </body>
 
 </html>

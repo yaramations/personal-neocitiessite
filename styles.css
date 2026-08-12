@@ -42,6 +42,14 @@ backdrop-filter: blur(10px);
     background-color:#cf1d82;
 }
 
+#playlist{
+    position: absolute;
+    top: 50%; left:50%; transform: translate(-50%, -50%);
+    padding: 10px; border: solid; width: 256px; border-radius: 5px;
+    background-color:#7fd4d0; border-color:#cf1d82;
+    font-family: Komika;
+}
+
 /*Font Library*/
 @font-face {
     font-family:DS;
